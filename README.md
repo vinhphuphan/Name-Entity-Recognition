@@ -12,7 +12,7 @@ The original CRF code is by Jenny Finkel. The feature extractors are by Dan Klei
 
 Named Entity Recognition (NER) labels sequences of words in a text which are the names of things, such as person and company names, or gene and protein names. It comes with well-engineered feature extractors for Named Entity Recognition, and many options for defining feature extractors. Included with the download are good named entity recognizers for English, particularly for the 3 classes (PERSON, ORGANIZATION, LOCATION).
 
-### LICENSE
+### License
 ----------------------------------------------
 
 The software is licensed under the full GPL v2+.
