@@ -1,0 +1,12 @@
+Name : Phan Vinh Phu
+OneID : 45747989
+
+In the evaluation of NER performance for both Wikipedia and FanWiki texts, program have calculated precision (P), recall (R), and F1-score (F1) for three entity types: LOCATION, ORGANIZATION, and PERSON. These metrics are standard measures used to assess the quality of NER systems.
+
+Precision(P) is the ratio of correctly identified entities to the total number of entities predicted by the system. It measures the accuracy of the identified entities. A high precision indicates that when an entity is predicted, it is likely to be correct. Recall(R) is the ratio of correctly identified entities to the total number of entities present in the text. It measures the ability of the system to identify all relevant entities in the text. High recall indicates that the system can find most of the entities. F1-score is the harmonic mean of precision and recall. It provides a balanced measure that considers both false positives and false negatives. It is especially useful when there is an imbalance between the classes (e.g., rare entities).
+
+According to the results, on Wikipedia text, the NER system demonstrated precision in identifying entities of all types. However it had low recall for ORGANIZATION entities, which means that it accurately recognized most entities but might have missed a few ORGANIZATION ones. Overall, the F1 score indicates that the system maintains a balanced approach, between precision and recall. 
+
+For Fanwiki text, the NER system exhibited high precision and recall for PERSON entities, indicating strong performance in identifying individuals. However, it had lower precision and recall for LOCATION and ORGANIZATION entities. The F1-score for FanWiki is lower than for Wikipedia, suggesting that the NER system's performance is less balanced on this dataset.
+
+By consistently tagging punctuation as /O, signifying that they are not part of any named entity, the NER system improves precision and reduces false positives. More specifically, after fxing, all organizations and locations have been recognized at 100% accuracy. This practice minimizes the risk of incorrectly identifying punctuation as entities, ultimately enhancing overall accuracy and the system's effectiveness in processing text data, especially in real-world scenarios where punctuation is abundant.
