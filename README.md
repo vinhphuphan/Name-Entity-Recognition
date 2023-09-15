@@ -58,7 +58,7 @@ Note that this is the same text, with two notable differences:
 Just looking at this passage, it looks like the Stanford NER did a fairly good job of recognizing instances of the PERSON and LOCATION class.
 
 #### Extract the named entity
-After extracting the words which are tagged person, organization, location. The list of ner is like this :
+After extracting the words which are tagged person, organization, location. The list of name entities is like this :
 ```
 AMC
 
@@ -98,6 +98,6 @@ CRFClassifier tagged 865 words in 31 documents at 656.30 words per second.
 
 - According to the results, on Wikipedia text, the NER system demonstrated precision in identifying entities of all types. However it had low recall for ORGANIZATION entities, which means that it accurately recognized most entities but might have missed a few ORGANIZATION ones. Overall, the F1 score indicates that the system maintains a balanced approach, between precision and recall.
 
-- By consistently tagging punctuation as /O, signifying that they are not part of any named entity, the NER system improves precision and reduces false positives.
+- A common thing that happens is that the NER tagger tags punctuation as part of an NER when it shouldn't. By consistently tagging punctuation as /O, signifying that they are not part of any named entity, the NER system improves precision and reduces false positives.
 
 
