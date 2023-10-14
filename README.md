@@ -100,4 +100,21 @@ CRFClassifier tagged 865 words in 31 documents at 656.30 words per second.
 
 - A common thing that happens is that the NER tagger tags punctuation as part of an NER when it shouldn't. By consistently tagging punctuation as /O, signifying that they are not part of any named entity, the NER system improves precision and reduces false positives.
 
+## Related Projects:question: 👨‍💻 🛰️
+
+<code>[Olympic-Weightlifting-Data-Analysis](https://github.com/vinhphuphan/Olympic-Weightlifting-Data-Analysis)</code> 📊
+
+<code>[Titanic - Machine Learning from Disaster using Python](https://github.com/vinhphuphan/Titanic-Machine-Learning-from-Disaster)</code> 📊
+
+<code>[Text Classification With Movie Reviews](https://github.com/vinhphuphan/Text-Classification-With-Movie-Reviews/)</code> 📊
+
+<code>[Living Species Image Classification using Python](https://github.com/vinhphuphan/Living-Species-Image-Classification)</code> 📊
+
+<code>[Name Entity Recognition](https://github.com/vinhphuphan/Name-Entity-Recognition)</code> 📊
+
+<code>[Hospital-Landing-Page](https://github.com/vinhphuphan/Hospital-Landing-Page/)</code> 📊
+
+<code>[LaslesVPN Landing Page](https://github.com/vinhphuphan/Lasles-VPN-Landing-Page)</code> 📊
+
+**Have fun building!** 🚀
 
